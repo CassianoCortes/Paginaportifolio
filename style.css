@@ -6,8 +6,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.logo {
+    height: 300px;
+    width: 300px;
+}
+
+
 body {
-    background-color: #000;
+    background-color: #1f1e1d;
     height: 100vh;
 }
 
@@ -24,7 +30,7 @@ body {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #00FF08;
+    background-color: #ffff00;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -38,12 +44,12 @@ h2.titulo {
 }
 
 h2.titulo span {
-    color: #00FF08;
+    color: #ffff00;
 }
 
 button:hover,
 form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px #00ff08;
+    box-shadow: 0px 0px 8px #ffff00;
     transform: scale(1.05);
 }
 
@@ -59,7 +65,7 @@ header>.interface {
 }
 
 header a {
-    color: #5c5c5c;
+    color: #c7c3bf;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -86,7 +92,7 @@ header nav.menu-desktop ul li {
 }
 
 .btn-abrir-menu i{
-    color: #00FF08;
+    color: #ffff00;
     font-size: 40px;
 }
 
@@ -116,7 +122,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile .btn-fechar i{
-    color: #00FF08;
+    color: #ffff00;
     font-size: 30px;
 }
 
@@ -133,7 +139,7 @@ header nav.menu-desktop ul li {
 }   
 
 .menu-mobile nav ul li a:hover{
-    background-color: #00FF08;
+    background-color: #ffff00;
     color: #000;
 }
 
@@ -166,7 +172,7 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .txt-topo-site h1 span {
-    color: #00FF08;
+    color: #ffff00;
 }
 
 .topo-do-site .txt-topo-site p {
@@ -175,6 +181,8 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .img-topo-site img {
+    width: 500px;
+    height: 500px;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
@@ -214,7 +222,7 @@ section.especiliadades .flex {
 
 .especiliadades .especialidades-box i {
     font-size: 70px;
-    color: #00FF08;
+    color: #ffff00;
 }
 
 .especiliadades .especialidades-box h3 {
@@ -243,7 +251,7 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre h2 span {
-    color: #00FF08;
+    color: #ffff00;
     display: block;
 }
 
@@ -257,7 +265,7 @@ section.sobre .flex {
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #00FF08;
+    background-color: #ffff00;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -351,7 +359,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
     width: 120px;
-    background-color: #00FF08;
+    background-color: #ffff00;
     color: #000;
     font-weight: 700;
     cursor: pointer;
@@ -374,11 +382,11 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid #00FF08;
+    border-top: 2px solid #ffff00;
 }
 
 footer .line-footer p i {
-    color: #00FF08;
+    color: #ffff00;
     font-size: 22px;
 }
 
